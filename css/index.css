@@ -37,7 +37,7 @@ main {
   text-align: center;
 }
 div {
-  width: 100%;
+  width: 100% -4px;
   height: 100%;
   display: inline-block;
 }
@@ -52,10 +52,11 @@ div.card {
 }
 
 footer {
-  margin-top: 200px;
   text-align: center;
 }
 
 .socialMedia {
+  margin-top: 30px;
   margin-bottom: 30px;
+  overflow-x: hidden;
 }
